@@ -66,6 +66,9 @@ Create an application using Spring boot
                          
     e) run the dockerFile using docker with following Commands
     
+      --build the docker image
+      docker build -t naemOfDockerimage(small caps) .
+      
       --create the new container with port binding and start/run
       docker run -8080:8080 nameofimage
 
